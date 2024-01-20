@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "siteweb",
-=======
   "name": "event",
->>>>>>> 044d9f87bdacedf9d2442175ab8118a080092dc1
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,18 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.4"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4"
-=======
     "next": "14.0.4",
     "normalize.css": "^8.0.1",
     "react": "^18",
@@ -36,6 +20,5 @@
     "eslint-config-next": "14.0.4",
     "postcss": "^8",
     "tailwindcss": "^3.3.0"
->>>>>>> 044d9f87bdacedf9d2442175ab8118a080092dc1
   }
 }
