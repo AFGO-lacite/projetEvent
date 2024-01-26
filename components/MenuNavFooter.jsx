@@ -29,7 +29,7 @@ export const MenuNavFooter = () => {
                     <Image
                       className={"rounded"}
                       src={insta}
-                      alt="Icone Instagrame"
+                      alt="Icone Instagram"
                     ></Image>
                   </a>
                 </li>
