@@ -1,39 +1,29 @@
 .footer {
-    background-color: #160e08;
-    align-items: center;
-    padding: 1rem;
-
-
+  background-color: #160e08;
+  align-items: center;
+  padding: 1rem;
 }
 
-
-
 .nav a {
-    color: #00D5FF;
-    text-decoration: none;
-    font-weight: bold;
-
-
+  color: #00d5ff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .mar {
-    margin-right: 4rem;
+  margin-right: 4rem;
 }
 
 .nav img {
-    max-width: 30px;
-    max-height: 30px;
-
-
+  max-width: 30px;
+  max-height: 30px;
 }
 
-
 .title2 {
-    margin-top: 2.4rem;
-    margin-right: 2rem;
-    gap: 4rem;
-    color: #00D5FF;
-    margin-left: 1rem;
-    text-align: justify;
-
+  margin-top: 2.4rem;
+  margin-right: 2rem;
+  gap: 4rem;
+  color: #00d5ff;
+  margin-left: 1rem;
+  text-align: justify;
 }

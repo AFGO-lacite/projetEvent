@@ -1,27 +1,25 @@
 .header {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 
-    padding: 1rem;
-    background-color: #160e08;
+  padding: 1rem;
+  background-color: #160e08;
 }
 
 .header img {
-    width: 5rem;
-    height: auto;
+  width: 5rem;
+  height: auto;
 }
 
 .title {
-    margin-top: 2rem;
-    gap: 1rem;
-    color: #00D5FF;
-
-
-
+  margin-top: 2rem;
+  gap: 1rem;
+  color: #00d5ff;
+  cursor: pointer;
 }
 
-.header div {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.spec {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
