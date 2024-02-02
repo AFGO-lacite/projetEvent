@@ -6,8 +6,9 @@ import linkedin from "@/public/link.png";
 
 export const MenuNavFooter = () => {
   return (
-    <nav className={styles.nav}>
-      <ul className={"m-3"}>
+    <nav className={styles.nav + ""}>
+      <div className="mt-3"></div>
+      <ul className={""}>
         <li className={styles.mar}>
           <ul>
             <li className={"mt-4 "}>
@@ -18,7 +19,7 @@ export const MenuNavFooter = () => {
         <li>
           <ul>
             <li className={" mb-4 "}>
-              <ul className={"d-flex flex-nowrap"}>
+              <ul className={""}>
                 <li className={" "}>
                   <a href="">
                     <Image src={fb} alt="Icone Facebook"></Image>

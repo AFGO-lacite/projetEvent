@@ -1,15 +1,15 @@
-
 import styles from "./MenuNav.module.css";
+import { DropDownMenu } from "./DropDownMenu.jsx";
 
-export const MenuNav = () => {
+export const MenuNav = ({ setPage }) => {
   return (
-    <div>
+    <div className="p-3">
       <nav className={styles.nav}>
         <ul className={""}>
           <li className={styles.mar}>
             <ul>
               <li className={"mt-4   "}>
-                <a href="">Events</a>
+                <DropDownMenu setPage={setPage}></DropDownMenu>
               </li>
               <li className={"mt-4  "}>
                 <a href="">INFO</a>
@@ -17,11 +17,8 @@ export const MenuNav = () => {
               <li className={"mt-4"}>
                 <a href="">Gallerie</a>
               </li>
-              
             </ul>
           </li>
-
-          
         </ul>
       </nav>
     </div>
