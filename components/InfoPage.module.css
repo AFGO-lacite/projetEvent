@@ -1,0 +1,25 @@
+.div {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(22, 14, 8, 0.7);
+  max-width: 1200px;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+.div p {
+  color: #f8f8f8;
+}
+
+.div h2 {
+  color: #00d5ff;
+}
+
+.div h3 {
+  color: #00d5ff;
+}

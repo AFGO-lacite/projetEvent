@@ -6,7 +6,6 @@ import truck from "@/public/cts6.png";
 import logo from "@/public/logo.png";
 import Image from "next/image";
 
-
 export default function Accueil() {
     return (
       <div className={styles.div}>

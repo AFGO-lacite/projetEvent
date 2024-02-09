@@ -12,10 +12,10 @@ export const MenuNav = ({ setPage }) => {
                 <DropDownMenu setPage={setPage}></DropDownMenu>
               </li>
               <li className={"mt-4  "}>
-                <a href="">INFO</a>
+                <a href="" onClick={(e) => { e.preventDefault(); setPage("info"); }}>INFO</a>
               </li>
               <li className={"mt-4"}>
-                <a href="">Gallerie</a>
+                <a href=""onClick={(e) => { e.preventDefault(); setPage("gallerie"); }}>Gallerie</a>
               </li>
             </ul>
           </li>

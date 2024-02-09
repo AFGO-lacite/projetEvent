@@ -4,7 +4,7 @@ import fb from "@/public/fb.png";
 import insta from "@/public/insta.png";
 import linkedin from "@/public/link.png";
 
-export const MenuNavFooter = () => {
+export const MenuNavFooter = ({ setPage }) => {
   return (
     <nav className={styles.nav + ""}>
       <div className="mt-3"></div>
@@ -12,7 +12,15 @@ export const MenuNavFooter = () => {
         <li className={styles.mar}>
           <ul>
             <li className={"mt-4 "}>
-              <a href="">Contactez-nous</a>
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setPage("contact");
+                }}
+              >
+                Contactez-nous
+              </a>
             </li>
           </ul>
         </li>

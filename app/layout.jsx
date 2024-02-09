@@ -11,6 +11,9 @@ import Accueil from "@/components/Accueil";
 import { MotoPage } from "@/components/MotoPage";
 import { MuscleCars } from "@/components/MuscleCars";
 import { OldCars } from "@/components/OldCars";
+import ContactForm from '@/components/ContactPage'
+import {Info} from '@/components/InfoPage'
+import GalleriePage from '@/components/GalleriePage'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,12 +38,13 @@ export default function RootLayout({ children }) {
             <MuscleCars />
           ) : page === "OldCars" ? (
             <OldCars />
-          ) : (
-            <div>404</div>
-          )}
+          ) : page === "contact" ? (<ContactForm />) :
+           page === 'info' ? (<Info/>):
+           page === 'gallerie' ? (<GalleriePage/>):
+          <div>coucou</div> }
         </main>
 
-        <Footer></Footer>
+        <Footer setPage={setPage}></Footer>
       </body>
     </html>
   );
