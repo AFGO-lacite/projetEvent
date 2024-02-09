@@ -1,0 +1,12 @@
+[
+    { "src": "/cts1.webp", "alt": "Photo de gallerie", "width": 305, "height": 305 },
+    { "src": "/cts2.png", "alt": "Photo de gallerie", "width": 305, "height": 305 },
+    { "src": "/cts3.png", "alt": "Photo de gallerie", "width": 305, "height": 305 },
+    { "src": "/cts4.png", "alt": "Photo de gallerie", "width": 305, "height": 305 },
+    { "src": "/cts5.png", "alt": "Photo de gallerie", "width": 305, "height": 305 },
+    { "src": "/cts6.png", "alt": "Photo de gallerie", "width": 305, "height": 305 },
+    { "src": "/as.webp", "alt": "Photo de gallerie", "width": 305, "height": 805 },
+    { "src": "/Muscle.png", "alt": "Photo de gallerie", "width": 305, "height": 305 },
+    { "src": "/old.png", "alt": "Photo de gallerie", "width": 305, "height": 305 },
+    { "src": "/luxe.webp", "alt": "Photo de gallerie", "width": 305, "height": 305 }
+]
