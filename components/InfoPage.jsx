@@ -65,7 +65,7 @@ export const Info = () => {
           événements passés, permettant aux utilisateurs de vivre ou de revivre
           les moments forts du tuning. Un forum communautaire encourage les
           utilisateurs à partager leurs expériences, à poser des questions et à
-          se connecter avec d'autres passionnés.
+          se connecter avec d`&apos;`autres passionnés.
         </p>
       </div>
 
@@ -74,7 +74,7 @@ export const Info = () => {
         <p>
           CarTuningShow ne se limite pas aux événements, il offre aussi un blog
           riche en articles sur les dernières tendances du tuning, des conseils
-          techniques, et des interviews d'experts du secteur.
+          techniques, et des interviews d`&apos;`experts du secteur.
         </p>
       </div>
 
@@ -82,7 +82,7 @@ export const Info = () => {
         <h2>Site web de référence:</h2>
         <p>
           Notre <a href="https://autoshow.ca/">site web de référence</a> pour
-          plus d'informations.
+          plus d`&apos;`informations.
         </p>
       </div>
     </div>
