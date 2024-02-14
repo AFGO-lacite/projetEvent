@@ -12,9 +12,9 @@ export const MuscleCars = () => {
     >
       <div>
         <p>
-          Amateurs de muscle cars et d'automobiles puissantes, notez cette date
+          Amateurs de muscle cars et d`&apos;`automobiles puissantes, notez cette date
           dans vos agendas ! Nous vous convions à un rassemblement exceptionnel
-          qui promet d'être le rendez-vous incontournable de l'année pour tous
+          qui promet d`&apos;`être le rendez-vous incontournable de l`&apos;`année pour tous
           les passionnés de muscle cars à Gatineau-Hull et ses environs.
         </p>
         <h3>Au Programme :</h3>
@@ -39,7 +39,7 @@ export const MuscleCars = () => {
             aux muscle cars.
           </li>
           <li>
-            <strong>Musique et Ambiance Festive :</strong> Profitez d'une
+            <strong>Musique et Ambiance Festive :</strong> Profitez d`&apos;`une
             ambiance festive avec de la musique live, des rafraîchissements et
             bien plus encore !
           </li>
@@ -49,12 +49,12 @@ export const MuscleCars = () => {
             Ne ratez pas cette occasion unique de célébrer votre passion et de
             créer des souvenirs mémorables.
           </strong>{" "}
-          Que vous soyez propriétaire d'un muscle car ou simplement amateur, cet
+          Que vous soyez propriétaire d`&apos;`un muscle car ou simplement amateur, cet
           événement est conçu pour vous !
         </p>
         <p>
           <strong>
-            Rejoignez-nous pour une journée pleine d'excitation, de convivialité
+            Rejoignez-nous pour une journée pleine d`&apos;`excitation, de convivialité
             et de plaisir automobile.
           </strong>
         </p>

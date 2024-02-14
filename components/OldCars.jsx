@@ -12,22 +12,22 @@ export const OldCars = () => {
     >
       <div>
         <p>
-          Passionnés de voitures d'époque, marquez ce jour dans vos calendriers
+          Passionnés de voitures d`&apos;`époque, marquez ce jour dans vos calendriers
           ! Nous vous invitons à un événement exceptionnel qui promet d'être le
-          point culminant de l'année pour tous les amateurs de voitures
+          point culminant de l`&apos;`année pour tous les amateurs de voitures
           anciennes à Ottawa-Orléans et ses alentours.
         </p>
         <h3>Au Programme :</h3>
         <ul>
           <li>
             <strong>Exposition de Véhicules Vintage :</strong> Découvrez une
-            collection étonnante de voitures anciennes, témoins de l'histoire et
-            de l'évolution de l'automobile.
+            collection étonnante de voitures anciennes, témoins de l`&apos;`histoire et
+            de l`&apos;`évolution de l`&apos;`automobile.
           </li>
           <li>
             <strong>Défilé de Voitures Classiques :</strong> Participez ou
             admirez un défilé spectaculaire mettant en vedette des voitures
-            historiques à travers les rues d'Orléans.
+            historiques à travers les rues d`&apos;`Orléans.
           </li>
           <li>
             <strong>Rencontres avec des Collectionneurs :</strong> Échangez avec
@@ -37,11 +37,11 @@ export const OldCars = () => {
           <li>
             <strong>Stands et Souvenirs :</strong> Explorez une variété de
             stands offrant des articles, des pièces et des souvenirs liés aux
-            voitures d'époque.
+            voitures d`&apos;`époque.
           </li>
           <li>
-            <strong>Ambiance Rétro et Musique :</strong> Profitez d'une
-            atmosphère nostalgique avec de la musique d'époque, des
+            <strong>Ambiance Rétro et Musique :</strong> Profitez d`&apos;`une
+            atmosphère nostalgique avec de la musique d`&apos;`époque, des
             rafraîchissements et plus encore.
           </li>
         </ul>
@@ -50,13 +50,13 @@ export const OldCars = () => {
             Ne manquez pas cette occasion unique de plonger dans le passé et de
             créer des souvenirs inoubliables.
           </strong>{" "}
-          Que vous soyez propriétaire d'une voiture d'époque ou simplement
+          Que vous soyez propriétaire d`&apos;`une voiture d`&apos;`époque ou simplement
           amateur, cet événement est fait pour vous !
         </p>
         <p>
           <strong>
             Rejoignez-nous pour une journée de découverte, de partage et de
-            célébration de l'histoire automobile.
+            célébration de l`&apos;`histoire automobile.
           </strong>
         </p>
         <p>

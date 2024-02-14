@@ -81,7 +81,7 @@ const PaymentModal = ({ isOpen, onClose }) => {
               </div>
               <div className="mb-3">
                 <label htmlFor="dateExp" className="form-label">
-                  Date d'Expiration
+                  Date d`&apos;`Expiration
                 </label>
                 <input
                   type="month"
