@@ -13,7 +13,7 @@ export const OldCars = () => {
       <div>
         <p>
           Passionnés de voitures d`&apos;`époque, marquez ce jour dans vos calendriers
-          ! Nous vous invitons à un événement exceptionnel qui promet d'être le
+          ! Nous vous invitons à un événement exceptionnel qui promet d`&apos;`être le
           point culminant de l`&apos;`année pour tous les amateurs de voitures
           anciennes à Ottawa-Orléans et ses alentours.
         </p>

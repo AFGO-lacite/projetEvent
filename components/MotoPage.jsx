@@ -13,7 +13,7 @@ export const MotoPage = () => {
       <div>
         <p>
           Amis motards et passionnés de Harley Davidson, marquez vos calendriers
-          ! Nous vous invitons à un rassemblement exceptionnel qui promet d'être
+          ! Nous vous invitons à un rassemblement exceptionnel qui promet d`&apos;`être
           l`&apos;`événement de l`&apos;`année pour tous les amateurs de Harley à
           Ottawa-Kanata et au-delà.
         </p>
@@ -38,7 +38,7 @@ export const MotoPage = () => {
             stands offrant des accessoires, des pièces et des vêtements de moto.
           </li>
           <li>
-            <strong>Musique et Ambiance Festive :</strong> Profitez d'une
+            <strong>Musique et Ambiance Festive :</strong> Profitez d`&apos;`une
             ambiance festive avec de la musique live, des rafraîchissements et
             plus encore !
           </li>
