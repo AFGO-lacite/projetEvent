@@ -1,7 +1,10 @@
 import styles from "./MenuNav.module.css";
 import { DropDownMenu } from "./DropDownMenu.jsx";
 
-export const MenuNav = ({ setPage }) => {
+import Link from "next/link"
+
+
+export const MenuNav = () => {
   return (
     <div className="p-3">
       <nav className={styles.nav}>
@@ -9,13 +12,13 @@ export const MenuNav = ({ setPage }) => {
           <li className={styles.mar}>
             <ul>
               <li className={"mt-4   "}>
-                <DropDownMenu setPage={setPage}></DropDownMenu>
+                <DropDownMenu ></DropDownMenu>
               </li>
               <li className={"mt-4  "}>
-                <a href="" onClick={(e) => { e.preventDefault(); setPage("info"); }}>INFO</a>
+                <Link href="/info" >INFO</Link>
               </li>
               <li className={"mt-4"}>
-                <a href=""onClick={(e) => { e.preventDefault(); setPage("gallerie"); }}>Gallerie</a>
+                <Link href="/gallerie">Gallerie</Link>
               </li>
             </ul>
           </li>

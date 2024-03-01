@@ -3,7 +3,7 @@ import styles from "./Articles.module.css";
 
 export const Articles = ({ titre, pic, description, texte }) => {
   return (
-    <div className={styles.div + " pe-5 ps-5 rounded mt-5 "}>
+    <div className={styles.div + "  rounded mt-5 "}>
       <h1 className={"mt-3"}>{titre}</h1>
       <Image
         src={pic}

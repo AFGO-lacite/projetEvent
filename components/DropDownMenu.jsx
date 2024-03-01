@@ -1,6 +1,8 @@
 import styles from "./DropDownMenu.module.css";
 
-export const DropDownMenu = ({ setPage }) => {
+import Link from "next/link"
+
+export const DropDownMenu = () => {
   return (
     <div className={styles.dropdown}>
       <button className={styles.dropdownButton}>
@@ -8,15 +10,15 @@ export const DropDownMenu = ({ setPage }) => {
         <i className={styles.dropdownIcon}></i>
       </button>
       <div className={styles.dropdownContent}>
-        <a href="#" onClick={() => setPage("MotoPage")}>
+        <Link href="/moto" >
           Bikes
-        </a>
-        <a href="#" onClick={() => setPage("MuscleCars")}>
+        </Link>
+        <Link href="/muscle" >
           Muscle cars
-        </a>
-        <a href="#" onClick={() => setPage("OldCars")}>
+        </Link>
+        <Link href="/old">
           Old cars
-        </a>
+        </Link>
       </div>
     </div>
   );

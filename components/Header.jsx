@@ -2,8 +2,9 @@ import styles from "./Header.module.css";
 import { MenuNav } from "./MenuNav";
 import Image from "next/image";
 import logo from "@/public/logo.png";
+import Link from "next/link"
 
-export const Header = ({ setPage }) => {
+export const Header = () => {
   return (
     <header
       className={
@@ -14,15 +15,14 @@ export const Header = ({ setPage }) => {
         <Image src={logo} alt="logo"></Image>
         <h1
           className={styles.title}
-          onClick={() => {
-            setPage("accueil");
-          }}
+          href="/"
         >
-          Car Tuning Show
+          <Link className={styles.Link} href="/">Car Tuning Show</Link>
+          
         </h1>
       </div>
 
-      <MenuNav setPage={setPage}></MenuNav>
+      <MenuNav ></MenuNav>
     </header>
   );
 };
