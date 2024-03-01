@@ -1,4 +1,4 @@
-import styles from './Accueil.module.css'
+import styles from '@/components/Accueil.module.css'
 import { Articles } from "@/components/Articles"; 
 import voiture from "@/public/cts4.png";
 import moto from "@/public/cts5.png";

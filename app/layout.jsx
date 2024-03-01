@@ -7,13 +7,7 @@ import { Footer } from "@/components/Footer.jsx";
 import styles from "./layout.module.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import { useState } from "react";
-import Accueil from "@/components/Accueil";
-import { MotoPage } from "@/components/MotoPage";
-import { MuscleCars } from "@/components/MuscleCars";
-import { OldCars } from "@/components/OldCars";
-import ContactForm from '@/components/ContactPage'
-import {Info} from '@/components/InfoPage'
-import GalleriePage from '@/components/GalleriePage'
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,27 +18,16 @@ export const metadata = {
 };
 */
 export default function RootLayout({ children }) {
-  const [page, setPage] = useState("accueil");
+  
   return (
     <html lang="en">
       <body className={inter.className + " " + styles.body}>
-        <Header setPage={setPage} />
+        <Header  />
         <main className={styles.main + " "}>
-          {page === "accueil" ? (
-            <Accueil />
-          ) : page === "MotoPage" ? (
-            <MotoPage />
-          ) : page === "MuscleCars" ? (
-            <MuscleCars />
-          ) : page === "OldCars" ? (
-            <OldCars />
-          ) : page === "contact" ? (<ContactForm />) :
-           page === 'info' ? (<Info/>):
-           page === 'gallerie' ? (<GalleriePage/>):
-          <div>coucou</div> }
+          {children}
         </main>
 
-        <Footer setPage={setPage}></Footer>
+        <Footer ></Footer>
       </body>
     </html>
   );

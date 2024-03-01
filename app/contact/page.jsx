@@ -1,4 +1,4 @@
-import styles from "./ContactPage.module.css";
+import styles from "@/components/ContactPage.module.css";
 
 function ContactForm() {
   return (

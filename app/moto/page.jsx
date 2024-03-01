@@ -1,7 +1,7 @@
-import Event from "./Event.jsx";
+import Event from "@/components/Event.jsx";
 import moto from "@/public/Harley.png";
 
-export const MotoPage = () => {
+export default function MotoPage () {
   return (
     <Event
       pic={moto}
@@ -13,8 +13,8 @@ export const MotoPage = () => {
       <div>
         <p>
           Amis motards et passionnés de Harley Davidson, marquez vos calendriers
-          ! Nous vous invitons à un rassemblement exceptionnel qui promet d'être
-          l'événement de l'année pour tous les amateurs de Harley à
+          ! Nous vous invitons à un rassemblement exceptionnel qui promet d`&apos;`être
+          l`&apos;`événement de l`&apos;`année pour tous les amateurs de Harley à
           Ottawa-Kanata et au-delà.
         </p>
         <h3>Au Programme :</h3>
@@ -38,7 +38,7 @@ export const MotoPage = () => {
             stands offrant des accessoires, des pièces et des vêtements de moto.
           </li>
           <li>
-            <strong>Musique et Ambiance Festive :</strong> Profitez d'une
+            <strong>Musique et Ambiance Festive :</strong> Profitez d`&apos;`une
             ambiance festive avec de la musique live, des rafraîchissements et
             plus encore !
           </li>
@@ -48,12 +48,12 @@ export const MotoPage = () => {
             Ne manquez pas cette occasion unique de vivre votre passion et de
             créer des souvenirs inoubliables.
           </strong>{" "}
-          Que vous soyez un fier propriétaire d'une Harley ou simplement un
+          Que vous soyez un fier propriétaire d`&apos;`une Harley ou simplement un
           admirateur, cet événement est fait pour vous !
         </p>
         <p>
           <strong>
-            Rejoignez-nous pour une journée pleine d'aventures, de camaraderie
+            Rejoignez-nous pour une journée pleine d`&apos;`aventures, de camaraderie
             et de pur plaisir sur deux roues.
           </strong>
         </p>
