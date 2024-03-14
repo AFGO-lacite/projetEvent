@@ -1,7 +1,20 @@
 import Event from "@/components/Event";
 import Muscle from "@/public/Muscle.png";
 
-export default function MuscleCars () {
+/**
+ * @type {import("next").Metadata}
+ */
+export const metadata = {
+  title: "Evenement Muscle Cars Show",
+  description: "Evenement Muscle Cars Show proposé par CarTuningShow.",
+  openGraph: {
+    title: "Evenement Muscle Cars Show",
+    description: "Evenement Muscle Cars Show proposé par CarTuningShow.",
+    images: ["/logo.png"],
+  },
+};
+
+export default function MuscleCars() {
   return (
     <Event
       pic={Muscle}
@@ -12,10 +25,11 @@ export default function MuscleCars () {
     >
       <div>
         <p>
-          Amateurs de muscle cars et d`&apos;`automobiles puissantes, notez cette date
-          dans vos agendas ! Nous vous convions à un rassemblement exceptionnel
-          qui promet d`&apos;`être le rendez-vous incontournable de l`&apos;`année pour tous
-          les passionnés de muscle cars à Gatineau-Hull et ses environs.
+          Amateurs de muscle cars et d`&apos;`automobiles puissantes, notez
+          cette date dans vos agendas ! Nous vous convions à un rassemblement
+          exceptionnel qui promet d`&apos;`être le rendez-vous incontournable de
+          l`&apos;`année pour tous les passionnés de muscle cars à Gatineau-Hull
+          et ses environs.
         </p>
         <h3>Au Programme :</h3>
         <ul>
@@ -49,13 +63,13 @@ export default function MuscleCars () {
             Ne ratez pas cette occasion unique de célébrer votre passion et de
             créer des souvenirs mémorables.
           </strong>{" "}
-          Que vous soyez propriétaire d`&apos;`un muscle car ou simplement amateur, cet
-          événement est conçu pour vous !
+          Que vous soyez propriétaire d`&apos;`un muscle car ou simplement
+          amateur, cet événement est conçu pour vous !
         </p>
         <p>
           <strong>
-            Rejoignez-nous pour une journée pleine d`&apos;`excitation, de convivialité
-            et de plaisir automobile.
+            Rejoignez-nous pour une journée pleine d`&apos;`excitation, de
+            convivialité et de plaisir automobile.
           </strong>
         </p>
         <p>
@@ -64,4 +78,4 @@ export default function MuscleCars () {
       </div>
     </Event>
   );
-};
+}

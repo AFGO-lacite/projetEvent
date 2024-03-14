@@ -1,7 +1,20 @@
 import Event from "@/components/Event.jsx";
 import moto from "@/public/Harley.png";
 
-export default function MotoPage () {
+/**
+ * @type {import("next").Metadata}
+ */
+export const metadata = {
+  title: "Evenement Moto Show",
+  description: "Evenement Moto Show proposé par CarTuningShow.",
+  openGraph: {
+    title: "Evenement Moto Show",
+    description: "Evenement Moto Show proposé par CarTuningShow.",
+    images: ["/logo.png"],
+  },
+};
+
+export default function MotoPage() {
   return (
     <Event
       pic={moto}
@@ -13,9 +26,9 @@ export default function MotoPage () {
       <div>
         <p>
           Amis motards et passionnés de Harley Davidson, marquez vos calendriers
-          ! Nous vous invitons à un rassemblement exceptionnel qui promet d`&apos;`être
-          l`&apos;`événement de l`&apos;`année pour tous les amateurs de Harley à
-          Ottawa-Kanata et au-delà.
+          ! Nous vous invitons à un rassemblement exceptionnel qui promet
+          d`&apos;`être l`&apos;`événement de l`&apos;`année pour tous les
+          amateurs de Harley à Ottawa-Kanata et au-delà.
         </p>
         <h3>Au Programme :</h3>
         <ul>
@@ -48,13 +61,13 @@ export default function MotoPage () {
             Ne manquez pas cette occasion unique de vivre votre passion et de
             créer des souvenirs inoubliables.
           </strong>{" "}
-          Que vous soyez un fier propriétaire d`&apos;`une Harley ou simplement un
-          admirateur, cet événement est fait pour vous !
+          Que vous soyez un fier propriétaire d`&apos;`une Harley ou simplement
+          un admirateur, cet événement est fait pour vous !
         </p>
         <p>
           <strong>
-            Rejoignez-nous pour une journée pleine d`&apos;`aventures, de camaraderie
-            et de pur plaisir sur deux roues.
+            Rejoignez-nous pour une journée pleine d`&apos;`aventures, de
+            camaraderie et de pur plaisir sur deux roues.
           </strong>
         </p>
         <p>
@@ -63,4 +76,4 @@ export default function MotoPage () {
       </div>
     </Event>
   );
-};
+}

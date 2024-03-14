@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>http://localhost:3000/</loc>
+
+      <lastmod>2024-03-08</lastmod>
+
+      <changefreq>yearly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>http://localhost:3000/contact</loc>
+
+      <lastmod>2024-03-13</lastmod>
+
+      <changefreq>yearly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
+      <loc>http://localhost:3000/gallerie</loc>
+
+      <lastmod>2024-03-13</lastmod>
+
+      <changefreq>yearly</changefreq>
+
+      <priority>0.3</priority>
+
+   </url>
+    <url>
+
+      <loc>http://localhost:3000/info</loc>
+
+      <lastmod>2024-03-13</lastmod>
+
+      <changefreq>yearly</changefreq>
+
+      <priority>0.1</priority>
+
+   </url>
+    <url>
+
+      <loc>http://localhost:3000/moto</loc>
+
+      <lastmod>2024-03-13</lastmod>
+
+      <changefreq>yearly</changefreq>
+
+      <priority>1</priority>
+
+   </url>
+   <url>
+
+      <loc>http://localhost:3000/muscle</loc>
+
+      <lastmod>2024-03-13</lastmod>
+
+      <changefreq>yearly</changefreq>
+
+      <priority>1</priority>
+
+   </url>
+     <url>
+
+      <loc>http://localhost:3000/old</loc>
+
+      <lastmod>2024-03-13</lastmod>
+
+      <changefreq>yearly</changefreq>
+
+      <priority>1</priority>
+
+   </url>
+
+</urlset>

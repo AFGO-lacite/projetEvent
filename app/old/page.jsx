@@ -1,7 +1,20 @@
 import Event from "@/components/Event";
 import Oldcar from "@/public/old.png";
 
-export default function OldCars () {
+/**
+ * @type {import("next").Metadata}
+ */
+export const metadata = {
+  title: "Evenement Ols Cars Show",
+  description: "Evenement Old Cars Show proposé par CarTuningShow.",
+  openGraph: {
+    title: "Evenement Old Cars Show",
+    description: "Evenement Old Cars Show proposé par CarTuningShow.",
+    images: ["/logo.png"],
+  },
+};
+
+export default function OldCars() {
   return (
     <Event
       pic={Oldcar}
@@ -12,17 +25,17 @@ export default function OldCars () {
     >
       <div>
         <p>
-          Passionnés de voitures d`&apos;`époque, marquez ce jour dans vos calendriers
-          ! Nous vous invitons à un événement exceptionnel qui promet d`&apos;`être le
-          point culminant de l`&apos;`année pour tous les amateurs de voitures
-          anciennes à Ottawa-Orléans et ses alentours.
+          Passionnés de voitures d`&apos;`époque, marquez ce jour dans vos
+          calendriers ! Nous vous invitons à un événement exceptionnel qui
+          promet d`&apos;`être le point culminant de l`&apos;`année pour tous
+          les amateurs de voitures anciennes à Ottawa-Orléans et ses alentours.
         </p>
         <h3>Au Programme :</h3>
         <ul>
           <li>
             <strong>Exposition de Véhicules Vintage :</strong> Découvrez une
-            collection étonnante de voitures anciennes, témoins de l`&apos;`histoire et
-            de l`&apos;`évolution de l`&apos;`automobile.
+            collection étonnante de voitures anciennes, témoins de
+            l`&apos;`histoire et de l`&apos;`évolution de l`&apos;`automobile.
           </li>
           <li>
             <strong>Défilé de Voitures Classiques :</strong> Participez ou
@@ -50,8 +63,8 @@ export default function OldCars () {
             Ne manquez pas cette occasion unique de plonger dans le passé et de
             créer des souvenirs inoubliables.
           </strong>{" "}
-          Que vous soyez propriétaire d`&apos;`une voiture d`&apos;`époque ou simplement
-          amateur, cet événement est fait pour vous !
+          Que vous soyez propriétaire d`&apos;`une voiture d`&apos;`époque ou
+          simplement amateur, cet événement est fait pour vous !
         </p>
         <p>
           <strong>
@@ -68,4 +81,4 @@ export default function OldCars () {
       </div>
     </Event>
   );
-};
+}
