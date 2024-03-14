@@ -6,28 +6,17 @@ import { Header } from "@/components/Header.jsx";
 import { Footer } from "@/components/Footer.jsx";
 import styles from "./layout.module.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
-import { useState } from "react";
-
 
 const inter = Inter({ subsets: ["latin"] });
 
-/*
-export const metadata = {
-  title: "Car Tuning Show",
-  description: "Event",
-};
-*/
 export default function RootLayout({ children }) {
-  
   return (
     <html lang="en">
       <body className={inter.className + " " + styles.body}>
-        <Header  />
-        <main className={styles.main + " "}>
-          {children}
-        </main>
+        <Header />
+        <main className={styles.main + " "}>{children}</main>
 
-        <Footer ></Footer>
+        <Footer></Footer>
       </body>
     </html>
   );
