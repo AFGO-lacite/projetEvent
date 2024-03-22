@@ -1,12 +1,12 @@
 [
     { "src": "/cts1.webp", "alt": "Photo de gallerie", "width": 305, "height": 305 },
-    { "src": "/cts2.png", "alt": "Photo de gallerie", "width": 305, "height": 305 },
-    { "src": "/cts3.png", "alt": "Photo de gallerie", "width": 305, "height": 305 },
-    { "src": "/cts4.png", "alt": "Photo de gallerie", "width": 305, "height": 305 },
-    { "src": "/cts5.png", "alt": "Photo de gallerie", "width": 305, "height": 305 },
-    { "src": "/cts6.png", "alt": "Photo de gallerie", "width": 305, "height": 305 },
+    { "src": "/web/cts2.webp", "alt": "Photo de gallerie", "width": 305, "height": 305 },
+    { "src": "/web/cts3.webp", "alt": "Photo de gallerie", "width": 305, "height": 305 },
+    { "src": "/web/cts4.webp", "alt": "Photo de gallerie", "width": 305, "height": 305 },
+    { "src": "/web/cts5.webp", "alt": "Photo de gallerie", "width": 305, "height": 305 },
+    { "src": "/web/cts6.webp", "alt": "Photo de gallerie", "width": 305, "height": 305 },
     { "src": "/as.webp", "alt": "Photo de gallerie", "width": 305, "height": 805 },
-    { "src": "/Muscle.png", "alt": "Photo de gallerie", "width": 305, "height": 305 },
-    { "src": "/old.png", "alt": "Photo de gallerie", "width": 305, "height": 305 },
+    { "src": "/web/Muscle.webp", "alt": "Photo de gallerie", "width": 305, "height": 305 },
+    { "src": "/web/old.webp", "alt": "Photo de gallerie", "width": 305, "height": 305 },
     { "src": "/luxe.webp", "alt": "Photo de gallerie", "width": 305, "height": 305 }
 ]

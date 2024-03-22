@@ -4,7 +4,6 @@
   gap: 1rem;
   text-align: center;
 }
-
 .gallerie img {
   margin: 1rem;
   height: 15rem;
@@ -12,4 +11,5 @@
   border: 3px solid #f8f8f8;
   border-radius: 1rem;
   object-fit: contain;
+  max-width: 15rem;
 }

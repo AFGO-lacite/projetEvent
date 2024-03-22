@@ -11,15 +11,16 @@
   width: 100%;
   padding: 1rem;
 }
-
 .div p {
   color: #f8f8f8;
 }
-
 .div h2 {
   color: #00d5ff;
 }
-
 .div h3 {
+  color: #00d5ff;
+}
+
+.div a{
   color: #00d5ff;
 }

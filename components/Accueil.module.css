@@ -2,10 +2,8 @@
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
-
   max-width: 1200px;
 }
-
 .image {
   max-width: 400px;
   height: auto;

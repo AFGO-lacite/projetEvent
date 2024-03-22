@@ -1,10 +1,8 @@
 import styles from "@/components/Accueil.module.css";
 import { Articles } from "@/components/Articles";
-import voiture from "@/public/cts4.png";
-import moto from "@/public/cts5.png";
-import truck from "@/public/cts6.png";
-import logo from "@/public/logo.png";
-import Image from "next/image";
+import voiture from "@/public/gallerie/cts4.webp";
+import moto from "@/public/gallerie/cts5.webp";
+import truck from "@/public/gallerie/cts6.webp";
 
 /**
  * @type {import("next").Metadata}
@@ -21,12 +19,7 @@ export const metadata = {
 
 export default function Accueil() {
   return (
-    <div className={styles.div}>
-      <Image
-        className={styles.image + " rounded"}
-        src={logo}
-        alt="logo du site"
-      ></Image>
+    <div className={styles.div}>  
 
       <Articles
         titre="Car Tuning Show"

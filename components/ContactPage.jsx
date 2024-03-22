@@ -84,7 +84,7 @@ function ContactForm() {
         <label className="form-label" htmlFor="message">
           Message:
         </label>
-        <br />
+        
         <textarea
           id="message"
           name="message"

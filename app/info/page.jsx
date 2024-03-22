@@ -30,7 +30,7 @@ export default function Info() {
 
       <div>
         <h3>Calendrier des Événements :</h3>
-        <p>
+        <p priority>
           Au cœur de CarTuningShow se trouve un calendrier interactif qui
           affiche toutes les dates importantes des événements de tuning à venir.
           Les utilisateurs peuvent parcourir les événements par date, type ou

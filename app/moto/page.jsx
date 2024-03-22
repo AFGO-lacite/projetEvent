@@ -1,5 +1,5 @@
 import Event from "@/components/Event.jsx";
-import moto from "@/public/Harley.png";
+import moto from "@/public/web/Harley.webp";
 
 /**
  * @type {import("next").Metadata}
@@ -30,7 +30,7 @@ export default function MotoPage() {
           d`&apos;`être l`&apos;`événement de l`&apos;`année pour tous les
           amateurs de Harley à Ottawa-Kanata et au-delà.
         </p>
-        <h3>Au Programme :</h3>
+        <h2>Au Programme :</h2>
         <ul>
           <li>
             <strong>Exposition de Modèles Mythiques :</strong> Découvrez une

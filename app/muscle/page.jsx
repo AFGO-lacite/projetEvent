@@ -1,5 +1,5 @@
 import Event from "@/components/Event";
-import Muscle from "@/public/Muscle.png";
+import Muscle from "@/public/gallerie/Muscle.webp";
 
 /**
  * @type {import("next").Metadata}
@@ -31,7 +31,7 @@ export default function MuscleCars() {
           l`&apos;`année pour tous les passionnés de muscle cars à Gatineau-Hull
           et ses environs.
         </p>
-        <h3>Au Programme :</h3>
+        <h2>Au Programme :</h2>
         <ul>
           <li>
             <strong>Exposition de Véhicules Légendaires :</strong> Admirez une
