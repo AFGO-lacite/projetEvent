@@ -8,18 +8,18 @@
   flex-direction: column;
   background-color: rgba(22, 14, 8, 0.9);
   margin-bottom: 1rem;
-  max-width: 1400px;
+  max-width: 800px;
 }
-
+.div img {
+  max-width: 800px;
+}
 .div h1 {
   color: #00d5ff;
   font-size: 4rem;
 }
-
 .div p {
   color: #f8f8f8;
 }
-
 #contenaire {
   display: flex;
   flex-direction: row;
@@ -27,7 +27,6 @@
   text-align: justify;
   align-items: center;
 }
-
 .contenaire2 {
   display: flex;
   flex-direction: row;
@@ -36,39 +35,32 @@
   align-items: center;
   justify-content: space-between;
 }
-
 .contenaire3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   text-align: justify;
   align-items: center;
-
   margin-right: 5rem;
   margin: 1rem;
 }
-
 .contenaire4 {
   text-align: justify;
   align-items: center;
   justify-content: space-around;
   width: 100%;
 }
-
 .btn {
   box-sizing: border-box;
   width: calc(100% - 10rem);
   margin: 5rem;
 }
-
 .sp {
   font-weight: bold;
 }
-
-.div h3 {
+.div h2 {
   color: #00d5ff;
 }
-
 .div ul {
   color: #f8f8f8;
 }

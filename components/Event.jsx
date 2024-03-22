@@ -16,7 +16,7 @@ export default function Event({
   price,
 }) {
   const [isModalOpen, setModalOpen] = useState(false);
-  const openModal = () => setModalOpen(true);
+  const openModal = () => {setModalOpen(true); console.log("hello")}
   const closeModal = () => setModalOpen(false);
   return (
     <div className={styles.div}>
@@ -30,6 +30,7 @@ export default function Event({
           width={300}
           height={200}
           className="rounded m-5 border border-3 mx-auto d-block"
+          priority
         />
         <div
           id="contenaire"
@@ -84,6 +85,7 @@ export default function Event({
               >
                 Réserver
               </button>
+             
               <PaymentModal isOpen={isModalOpen} onClose={closeModal} />
             </div>
           </div>

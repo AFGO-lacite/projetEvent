@@ -4,25 +4,21 @@
   padding: 1rem;
   background-color: #160e08;
 }
-
 .header img {
   width: 5rem;
   height: auto;
 }
-
 .title {
   margin-top: 2rem;
   gap: 1rem;
   color: #00d5ff;
   cursor: pointer;
 }
-
 .spec {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-
 .Link{
   text-decoration: none;
   color: #00d5ff;

@@ -1,5 +1,5 @@
 import Event from "@/components/Event";
-import Oldcar from "@/public/old.png";
+import Oldcar from "@/public/gallerie/old.webp";
 
 /**
  * @type {import("next").Metadata}
@@ -22,15 +22,17 @@ export default function OldCars() {
       price={"20$"}
       localisation={"Orleans"}
       time={"05/04/2024"}
+      
     >
       <div>
+        
         <p>
           Passionnés de voitures d`&apos;`époque, marquez ce jour dans vos
           calendriers ! Nous vous invitons à un événement exceptionnel qui
           promet d`&apos;`être le point culminant de l`&apos;`année pour tous
           les amateurs de voitures anciennes à Ottawa-Orléans et ses alentours.
         </p>
-        <h3>Au Programme :</h3>
+        <h2 >Au Programme :</h2>
         <ul>
           <li>
             <strong>Exposition de Véhicules Vintage :</strong> Découvrez une
